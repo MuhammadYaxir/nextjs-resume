@@ -12,7 +12,7 @@ const skills = [
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+ 
 ]
 
 const AboutSection = () => {
@@ -30,16 +30,16 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Yasir and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              based in Lahore.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
+              I graduated from Lahore University, Nca&e in 2021
+              with a BS in Computer Science and have been working in the
               field ever since.
             </p>
             <br />
@@ -78,8 +78,8 @@ const AboutSection = () => {
             <Image
               src="/hero-image.png"
               alt=""
-              width={325}
-              height={325}
+              width={125}
+              height={125}
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
             />
           </div>
